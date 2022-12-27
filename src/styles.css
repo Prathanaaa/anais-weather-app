@@ -1,0 +1,110 @@
+h1 {
+  margin: 10 auto;
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+h2 {
+  display: inline;
+  margin: 10 auto;
+  font-family: "Lato", sans-serif;
+  font-size: 42px;
+  color: #ffffff;
+  background-color: #bcbfc3;
+  border-radius: 5px;
+}
+h3 {
+  font-size: 50px;
+}
+footer {
+  text-align: right;
+}
+.card {
+  max-width: 800px;
+  display: block;
+  margin: 20px auto;
+}
+.today {
+  margin: 20px 10px 2px 0px;
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: italic;
+}
+.date {
+  margin: 20px auto;
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
+  font-weight: 400;
+}
+.temp {
+  font-weight: 600;
+}
+
+.temp-celcius {
+  color: rgba(0, 0, 255, 0.681);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.temp-farenheit {
+  color: rgba(0, 0, 255, 0.681);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.container-city {
+  padding: 4px 20px;
+}
+.container-forecast {
+  padding: 20px;
+}
+.forecast {
+  text-align: center;
+  margin: 0 auto;
+}
+.day {
+  margin: 0 auto;
+  padding: 10px;
+  font-style: italic;
+}
+.sun-emoji,
+.sun-cloud-emoji,
+.rain-emoji,
+.cloud-emoji {
+  font-size: 60px;
+}
+.sun-emoji {
+  color: #f9d71c;
+}
+.rain-emoji {
+  color: #39a6f5;
+}
+.cloud-emoji {
+  color: #b8bec3;
+}
+.temperature {
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 28px;
+}
+.city-input {
+  display: block;
+  margin: 10px 10px;
+}
+.city-button {
+  display: inline;
+  padding: 8px;
+}
+.location-button {
+  display: inline;
+  background-color: #ededed;
+  color: #0d0d0d;
+  border: none;
+  margin: 14px;
+}
+.location-button:hover {
+  display: inline;
+  background-color: #ffffff;
+  color: #0d0d0d;
+  border: 2px solid #0d0d0d;
+  margin: 14px;
+}
